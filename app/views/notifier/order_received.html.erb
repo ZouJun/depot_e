@@ -1,5 +1,11 @@
-<h1>Notifier#order_received</h1>
+<h3>京东订单确认</h3>
 
-<p>
-  <%= @greeting %>, find me in app/views/notifier/order_received.html.erb
-</p>
+Dear,<%= @order.name %>，Sir
+<br/><br/>
+Thank you for your recent order from The Pragmatic Store
+You ordered the following items;
+<h2>两条丝袜，一条内裤，两双袜子</h2>
+<br/><br/>
+We will send you a separate e-mail when your order ships.
+<br/><br/>
+<%= @greeting %>,if you want to know details,please enter our net http://localhost:3000.

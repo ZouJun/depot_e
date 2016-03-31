@@ -6,13 +6,13 @@
 </p>
 
 <p>
-  <strong>Hashed password:</strong>
-  <%= @user.hashed_password %>
+  <strong>Password:</strong>
+  <%= @user.password %>
 </p>
 
 <p>
-  <strong>Salt:</strong>
-  <%= @user.salt %>
+  <strong>Email:</strong>
+  <%= @user.email %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
